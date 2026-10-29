@@ -52,9 +52,6 @@ Charts extracted from the notebook's saved outputs are in the `images/` folder.
 ### Top installed apps in selected categories
 <img width="3948" height="1499" alt="Image" src="https://github.com/user-attachments/assets/f5a30d9c-115d-435d-8daf-e7734e821019" />
 
-Open the notebook and run its cells from top to bottom.
-
-The notebook currently loads the CSV from the URL in its source code, so an internet connection is required for that data-loading cell. If you prefer a local dataset, download the dataset from its original source and update the `pd.read_csv(...)` path.
 
 ## Suggested repository structure
 ```text
