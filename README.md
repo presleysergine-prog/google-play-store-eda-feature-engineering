@@ -11,29 +11,30 @@ exploratory data analysis, and feature engineering
 - Compare app category counts and installation totals.
 - Present findings with charts.
 
-## Tools
+## Tools and Technologies
 - Python
-- Pandas and NumPy
-- Matplotlib and Seaborn
-- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Google Colab
 
-## Notebook
-Open `notebooks/google_play_store_eda_feature_engineering.ipynb` to review the code, analysis, and outputs.
+## Business Questions
+1. Which category has the highest number of apps?
+2. Which category has the highest total installations?
+3. Which apps are among the most installed?
+4. How many apps have a perfect rating of 5.0?
+5. What missing values and duplicate records exist?
+6. How are ratings, reviews, installations, and prices distributed?
 
-## Key findings reported in the notebook
-These findings are transcribed from the notebook's saved outputs and written observations:
-1. The original dataset contains **10,841 rows and 13 columns**.
-2. The notebook reports missing values in fields including **Rating (1,474)**, **Type (1)**, **Content Rating (1)**, **Current Ver (8)**, and **Android Ver (3)**.
-3. The notebook identifies **1,181 duplicate app records** and reports **9,659 rows** after keeping one record per app.
-4. The notebook's category analysis identifies **Family** as the largest category by app count (about **18%**) and **Beauty** as the smallest (less than **1%**).
-5. The notebook reports **GAME** as the category with the largest total number of installations, at approximately **35 billion**.
-6. The notebook reports these popular apps within selected categories: **Subway Surfers** (GAME), **Hangouts** (COMMUNICATION), **Google Drive** (PRODUCTIVITY), and **Instagram** (SOCIAL).
-7. The notebook reports **271 apps with a 5.0 rating** in its final rating query.
-
-> Note: These are the findings written or displayed in the supplied notebook. Some results depend on the notebook's cleaning and aggregation choices. Re-run the notebook and verify the calculations before using the figures in a formal report or interview.
+## Key Findings
+- The original dataset contained 10,841 rows.
+- Family had the largest number of apps.
+- Game had the highest recorded total installations.
+- The notebook reported 271 apps with a rating of 5.0.
+- The dataset contained missing values and duplicate records.
 
 ## Visualisations
-Charts extracted from the notebook's saved outputs are in the `images/` folder.
 
 ### Numeric feature distributions
 <img width="1489" height="954" alt="Image" src="https://github.com/user-attachments/assets/ba160858-1a80-4215-a795-e8db8e66b3f9" />
@@ -53,6 +54,14 @@ Charts extracted from the notebook's saved outputs are in the `images/` folder.
 ### Top installed apps in selected categories
 <img width="3948" height="1499" alt="Image" src="https://github.com/user-attachments/assets/f5a30d9c-115d-435d-8daf-e7734e821019" />
 
+## Recommendations
+- Investigate the relationship between app ratings and installations.
+- Compare free and paid apps.
+- Examine review counts alongside ratings.
+- Investigate categories with high installations and user engagement.
+
+## Conclusion
+This project demonstrates practical skills in Python, data cleaning, exploratory data analysis, data visualization, and feature engineering.
 
 ## Repository structure
 ```text
