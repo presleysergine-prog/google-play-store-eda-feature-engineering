@@ -1,7 +1,11 @@
-# Google Play Store: EDA and Feature Engineering
+## Google Play Store Data Analysis: EDA and Feature Engineering
 
-## Project overview
-This project explores the Google Play Store dataset using Python. The notebook covers data inspection, cleaning, exploratory data analysis (EDA), visualisation, and feature engineering.
+## Project Overview
+A Python project exploring Google Play Store data to understand app ratings,
+
+categories, installations, reviews, and pricing through data cleaning,
+
+exploratory data analysis, and feature engineering
 
 ## Objectives
 - Inspect the dataset and identify missing values and duplicate app records.
