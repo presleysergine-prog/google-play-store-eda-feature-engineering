@@ -53,7 +53,7 @@ Charts extracted from the notebook's saved outputs are in the `images/` folder.
 <img width="3948" height="1499" alt="Image" src="https://github.com/user-attachments/assets/f5a30d9c-115d-435d-8daf-e7734e821019" />
 
 
-## Suggested repository structure
+## Repository structure
 ```text
 google-play-store-eda-feature-engineering/
 ├── README.md
@@ -68,3 +68,19 @@ google-play-store-eda-feature-engineering/
     ├── most_installed_categories.png
     └── top_installed_apps_by_category.png
 ```
+
+## 👤 Author
+
+Presley Ufuoma Sergine
+Data Analyst | Lagos, Nigeria
+
+<p>
+  <a href="https://www.linkedin.com/in/presley-sergine-b9176343a">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:presleysergine23@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
+
+<p align="center">
